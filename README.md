@@ -2,22 +2,9 @@
 
 [![Build Status](https://github.com/adafruit/Adafruit_nRF52_Arduino/workflows/Build/badge.svg)](https://github.com/adafruit/Adafruit_nRF52_Arduino/actions)
 
-This repository contains the Arduino BSP for Adafruit Bluefruit nRF52 series:
+This repository contains the Arduino BSP for Qalmari projects:
 
-- [Adafruit CLUE nRF52840](https://www.adafruit.com/product/4500)
-- [Adafruit Circuit Playground Bluefruit](https://www.adafruit.com/product/4333)
-- [Adafruit Feather nRF52832](https://www.adafruit.com/product/3406)
-- [Adafruit Feather nRF52840 Express](https://www.adafruit.com/product/4062)
-- [Adafruit Feather nRF52840 Sense](https://www.adafruit.com/product/4516)
-- [Adafruit ItsyBitsy nRF52840 Express](https://www.adafruit.com/product/4481)
-- [Adafruit LED Glasses Driver nRF52840](https://www.adafruit.com/product/5217)
-- Adafruit Metro nRF52840 Express
-- [Raytac MDBT50Q-RX Dongle](https://www.adafruit.com/product/5199)
-
-Following boards are also included but are not officially supported:
-
-- [Nordic nRF52840DK PCA10056](https://www.nordicsemi.com/Software-and-Tools/Development-Kits/nRF52840-DK)
-- [Particle Xenon](https://store.particle.io/products/xenon)
+- SulaJalmari
 
 ## BSP Installation
 

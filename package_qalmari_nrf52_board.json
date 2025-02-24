@@ -13,9 +13,9 @@
 			"architecture": "nrf52",
 			"version": "1.0.0",
 			"category": "Contributed",
-			"url": "https://github.com/HenryQalmari/Adafruit_nRF52_Arduino_SulaJalmari/blob/db3cf9c486f5dfd1dc5e86002e176ed429083e94/published/v1.0.0/v1.0.0.zip",
+			"url": "https://github.com/HenryQalmari/Adafruit_nRF52_Arduino_SulaJalmari/releases/download/v1.0.0/v1.0.0.zip",
 			"archiveFileName": "v1.0.0.zip",
-			"checksum": "SHA-256:7953640f7ac2bb4aee9b5f703a7905b84b188266c4eceb15880c1e1feacae6ae",
+			"checksum": "SHA-256:c0df1870d70f1ab8e3559b0613bab102aeb3e9628060e3ea753b5ea711eed88d",
 			"size": "17863240",
 			"boards": [
 			  {

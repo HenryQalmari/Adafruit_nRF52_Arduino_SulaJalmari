@@ -39,28 +39,32 @@ extern "C"
 // Number of pins defined in PinDescription array
 #define PINS_COUNT           (35)
 #define NUM_DIGITAL_PINS     (35)
-#define NUM_ANALOG_INPUTS    (6) // A6 is used for battery, A7 is analog reference
+#define NUM_ANALOG_INPUTS    (6) // A0 is used for battery
 #define NUM_ANALOG_OUTPUTS   (0)
 
 // LEDs
-#define PIN_LED1             (3)
-#define PIN_LED2             (4)
+#define PIN_LED1             (0)
+#define PIN_LED2             (1)
+#define PIN_LED3             (2)
+#define PIN_LED4             (3)
+#define PIN_LED5             (4)
+#define PIN_LED6             (5)
+#define PIN_LED7             (6)
+#define PIN_LED8             (7)
 #define PIN_NEOPIXEL_POWER   (34)
 #define PIN_NEOPIXEL         (8)
-#define NEOPIXEL_NUM         1
+#define NEOPIXEL_NUM         2
 
 #define LED_BUILTIN          PIN_LED1
 #define LED_CONN             PIN_LED2
 
-#define LED_RED              PIN_LED1
-#define LED_BLUE             PIN_LED2
-
-#define LED_STATE_ON         1         // State when LED is litted
+#define LED_STATE_ON         0         // State when LED is litted
 
 /*
  * Buttons
  */
-#define PIN_BUTTON1          (7)
+#define PIN_BUTTON1          (9)
+#define PIN_BUTTON2          (10)
 
 /*
  * Analog pins
@@ -85,18 +89,19 @@ static const uint8_t A7  = PIN_A7 ;
 #define ADC_RESOLUTION    14
 
 // Other pins
-#define PIN_AREF           PIN_A7
-#define PIN_VBAT           PIN_A6
-#define PIN_NFC1           (33)
-#define PIN_NFC2           (2)
-
-static const uint8_t AREF = PIN_AREF;
+#define PIN_VBAT           PIN_A1
 
 /*
  * Serial interfaces
  */
 #define PIN_SERIAL1_RX       (1)
 #define PIN_SERIAL1_TX       (0)
+
+/*
+ * I2C Interfaces
+ */
+#define PIN_I2C_SDA          (22)
+#define PIN_I2C_CLK          (23)
 
 /*
  * SPI Interfaces

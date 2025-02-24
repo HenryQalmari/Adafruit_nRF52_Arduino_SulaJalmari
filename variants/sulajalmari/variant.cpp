@@ -49,11 +49,11 @@ const uint32_t g_ADigitalPinMap[] =
    2,  // D18 is P0.02 (A4)
    3,  // D19 is P0.03 (A5)
   29,  // D20 is P0.29 (A6)
-  31,  // D21 is P0.31 (A7)
+  23,  // D21 is P0.23 (A7, IMU interrupt)
 
   // D22 .. D23 (aka I2C pins)
-  12,  // D22 is P0.12 (SDA)
-  11,  // D23 is P0.11 (SCL)
+  21,  // D22 is P0.21 (IMU SDA)
+  19,  // D23 is P0.19 (IMU SCL)
 
   // D24 .. D26 (aka SPI pins)
   15,  // D24 is P0.15 (SPI MISO)

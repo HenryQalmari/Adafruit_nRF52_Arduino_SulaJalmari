@@ -4,8 +4,7 @@
 	  {
 		"name": "sulajalmari",
 		"maintainer": "Qalmari",
-		"websiteURL": "test.com",
-		"email" : "test@test.com",
+		"websiteURL": "https://test.com",
 		"platforms":
 		[
 		  {
@@ -36,9 +35,6 @@
 				}
 			]
 		  }
-		],
-		"tools":
-		[
 		]
 	  }
 	]

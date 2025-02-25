@@ -13,10 +13,10 @@
 			"architecture": "nrf52",
 			"version": "1.0.0",
 			"category": "Contributed",
-			"url": "https://github.com/HenryQalmari/Adafruit_nRF52_Arduino_SulaJalmari/releases/download/v1.0.0/v1.0.0.zip",
-			"archiveFileName": "v1.0.0.zip",
-			"checksum": "SHA-256:6e4bac7221c1c515a394f2d32613bbbd2bc9b6b7abed5418e1cbec5142603527",
-			"size": "17896892",
+			"url": "https://github.com/HenryQalmari/Adafruit_nRF52_Arduino_SulaJalmari/raw/master/published/v1.0.0/qalmariboards-v1.0.0.tar.gz",
+			"archiveFileName": "qalmariboards-v1.0.0.tar.gz",
+			"checksum": "SHA-256:2356bf390f59c0fbaf50cba6b6c1c21d6697e9dd1f9e9b2ed85a8d0ab5e1db9f",
+			"size": "16836134",
 			"boards": [
 			  {
 				"name": "SulaJalmari"

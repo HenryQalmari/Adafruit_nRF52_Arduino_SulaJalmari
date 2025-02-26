@@ -22,12 +22,22 @@
             {
               "packager": "adafruit",
               "name": "arm-none-eabi-gcc",
-              "version": "5_2-2015q4"
+              "version": "9-2019q4"
             },
             {
               "packager": "adafruit",
               "name": "nrfjprog",
               "version": "9.4.0"
+            },
+            {
+              "packager": "adafruit",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
             }
           ]
         }

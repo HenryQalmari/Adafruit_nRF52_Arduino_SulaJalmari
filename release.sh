@@ -11,6 +11,7 @@ ROOT_FOLDER="qalmari_boards_${VERSION}"
 
 # List of folders to backup (modify this list)
 FOLDERS=(
+	"bootloader"
 	"cores"
 	"libraries"
 	"scripts"

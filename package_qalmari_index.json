@@ -9,7 +9,7 @@
 		[
 		  {
 			"name": "Qalmari nrf52 boards",
-			"architecture": "nrf52",
+			"architecture": "samd",
 			"version": "1.1.2",
 			"category": "Contributed",
 			"url": "https://github.com/hutscape/arduino-board-index/raw/main/boards/hutscape-oak-arduino-boards-1.1.2.tar.gz",
@@ -18,7 +18,7 @@
 			"size": "1457931",
 			"boards": [
 			  {
-				"name": "Qalmari SulaJalmari"
+				"name": "Oak"
 			  }
 			],
 			"toolsDependencies":

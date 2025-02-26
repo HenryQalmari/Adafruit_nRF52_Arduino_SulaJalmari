@@ -2,17 +2,17 @@
   "packages": [
     {
       "name": "qalmari",
-      "websiteURL": "https://test.com",
+      "websiteURL": "https://qalmari.fi/en/",
       "platforms": [
         {
           "name": "Qalmari Boards",
           "architecture": "nrf52",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://github.com/HenryQalmari/Adafruit_nRF52_Arduino_SulaJalmari/releases/download/1.0.0/v1.0.0.zip",
+          "url": "https://github.com/HenryQalmari/Adafruit_nRF52_Arduino_SulaJalmari/releases/download/1.0.0/qalmari_boards_1.0.0.tar.gz",
           "archiveFileName": "v1.0.0.zip",
-          "checksum": "SHA-256:6e4bac7221c1c515a394f2d32613bbbd2bc9b6b7abed5418e1cbec5142603527",
-          "size": "17896892",
+          "checksum": "SHA-256:41a200d3a3cefa73dee74b76003d72420bb5eded88523e546bbae28c46e904c4",
+          "size": "16224138",
           "boards": [
             {
               "name": "SulaJalmari"

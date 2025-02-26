@@ -27,7 +27,7 @@ const uint32_t g_ADigitalPinMap[] =
 {
   // D0 .. D13
   30,  // D0  is P0.30 (LED1)
-  08,  // D1  is P0.08 (LED2) 
+   8,  // D1  is P0.08 (LED2) 
   20,  // D2  is P0.20 (LED3)
   32+15,  // D3  is P1.15 (LED4)
   32+13,  // D4  is P1.13 (LED5)

@@ -1,41 +1,158 @@
 {
-	"packages":
-	[
-	  {
-		"name": "sulajalmari",
-		"maintainer": "Qalmari",
-		"websiteURL": "https://test.com",
-		"platforms":
-		[
-		  {
-			"name": "Qalmari nrf52 boards",
-			"architecture": "samd",
-			"version": "1.1.2",
-			"category": "Contributed",
-			"url": "https://github.com/hutscape/arduino-board-index/raw/main/boards/hutscape-oak-arduino-boards-1.1.2.tar.gz",
-			"archiveFileName": "hutscape-oak-arduino-boards-1.1.2.tar.gz",
-			"checksum": "SHA-256:ba9d15f3be1fcc1ed8c35182766f5b9066acb1a1537fe90a055e7dcc8044762f",
-			"size": "1457931",
-			"boards": [
-			  {
-				"name": "Oak"
-			  }
-			],
-			"toolsDependencies":
-			[
-				{
-				  "packager": "adafruit",
-				  "name": "gcc-arm-none-eabi",
-				  "version": "5_2-2015q4"
-				},
-				{
-				  "packager": "adafruit",
-				  "name": "nrfjprog",
-				  "version": "9.4.0"
-				}
-			]
-		  }
-		]
-	  }
-	]
-  }
+  "packages": [
+    {
+      "name": "hutscape",
+      "websiteURL": "https://hutscape.com",
+      "platforms": [
+        {
+          "name": "Hutscape Boards",
+          "architecture": "samd",
+          "version": "1.1.2",
+          "category": "Hutscape",
+          "url": "https://github.com/hutscape/arduino-board-index/raw/main/boards/hutscape-oak-arduino-boards-1.1.2.tar.gz",
+          "archiveFileName": "hutscape-oak-arduino-boards-1.1.2.tar.gz",
+          "checksum": "SHA-256:ba9d15f3be1fcc1ed8c35182766f5b9066acb1a1537fe90a055e7dcc8044762f",
+          "size": "1457931",
+          "boards": [
+            {
+              "name": "Oak"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "name": "arm-none-eabi-gcc",
+              "packager": "arduino",
+              "version": "7-2017q4"
+            },
+            {
+              "name": "bossac",
+              "packager": "arduino",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "name": "openocd",
+              "packager": "arduino",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "name": "CMSIS",
+              "packager": "arduino",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        },
+        {
+          "name": "Hutscape Boards",
+          "architecture": "samd",
+          "version": "1.1.1",
+          "category": "Hutscape",
+          "url": "https://github.com/hutscape/arduino-board-index/raw/main/boards/hutscape-oak-arduino-boards-1.1.1.tar.gz",
+          "archiveFileName": "hutscape-oak-arduino-boards-1.1.1.tar.gz",
+          "checksum": "SHA-256:e420dcf9d73c20d74df07bef90a9b584fe82bc5c733b13c61bf1c6e6bc1697fd",
+          "size": "1429201",
+          "boards": [
+            {
+              "name": "Oak"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "name": "arm-none-eabi-gcc",
+              "packager": "arduino",
+              "version": "7-2017q4"
+            },
+            {
+              "name": "bossac",
+              "packager": "arduino",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "name": "openocd",
+              "packager": "arduino",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "name": "CMSIS",
+              "packager": "arduino",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        },
+        {
+          "name": "Hutscape Boards",
+          "architecture": "samd",
+          "version": "1.1.0",
+          "category": "Hutscape",
+          "url": "https://github.com/hutscape/arduino-board-index/raw/main/boards/hutscape-oak-arduino-boards-1.1.0.tar.gz",
+          "archiveFileName": "hutscape-oak-arduino-boards-1.1.0.tar.gz",
+          "checksum": "SHA-256:087a4f395fc26726bafd4ab2610a9ac7e5f8a8f8e23ac3b3fd1cf11e54c4c16d",
+          "size": "1430232",
+          "boards": [
+            {
+              "name": "Oak"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "name": "arm-none-eabi-gcc",
+              "packager": "arduino",
+              "version": "7-2017q4"
+            },
+            {
+              "name": "bossac",
+              "packager": "arduino",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "name": "openocd",
+              "packager": "arduino",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "name": "CMSIS",
+              "packager": "arduino",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        },
+        {
+          "name": "Hutscape Boards",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Hutscape",
+          "url": "https://github.com/hutscape/arduino-board-index/raw/main/boards/hutscape-oak-arduino-boards-1.0.0.tar.gz",
+          "archiveFileName": "hutscape-oak-arduino-boards-1.0.0.tar.gz",
+          "checksum": "SHA-256:5d01ab2185d0e8043170cbf827f913fd8a36cd7832aced72400737036a40e751",
+          "size": "1430216",
+          "boards": [
+            {
+              "name": "Oak"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "name": "arm-none-eabi-gcc",
+              "packager": "arduino",
+              "version": "7-2017q4"
+            },
+            {
+              "name": "bossac",
+              "packager": "arduino",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "name": "openocd",
+              "packager": "arduino",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "name": "CMSIS",
+              "packager": "arduino",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,12 +10,12 @@
 		  {
 			"name": "Qalmari nrf52 boards",
 			"architecture": "nrf52",
-			"version": "1.0.0",
+			"version": "1.1.2",
 			"category": "Contributed",
-			"url": "https://github.com/HenryQalmari/Adafruit_nRF52_Arduino_SulaJalmari/releases/download/1.0.0/v1.0.0.zip",
-			"archiveFileName": "v1.0.0.zip",
-			"checksum": "SHA-256:6e4bac7221c1c515a394f2d32613bbbd2bc9b6b7abed5418e1cbec5142603527",
-			"size": "17896892",
+			"url": "https://github.com/hutscape/arduino-board-index/raw/main/boards/hutscape-oak-arduino-boards-1.1.2.tar.gz",
+			"archiveFileName": "hutscape-oak-arduino-boards-1.1.2.tar.gz",
+			"checksum": "SHA-256:ba9d15f3be1fcc1ed8c35182766f5b9066acb1a1537fe90a055e7dcc8044762f",
+			"size": "1457931",
 			"boards": [
 			  {
 				"name": "Qalmari SulaJalmari"

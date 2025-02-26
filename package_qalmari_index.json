@@ -1,11 +1,11 @@
 {
   "packages": [
     {
-      "name": "hutscape",
-      "websiteURL": "https://hutscape.com",
+      "name": "qalmari",
+      "websiteURL": "https://test.com",
       "platforms": [
         {
-          "name": "Hutscape Boards",
+          "name": "Qalmari Boards",
           "architecture": "samd",
           "version": "1.1.2",
           "category": "Hutscape",

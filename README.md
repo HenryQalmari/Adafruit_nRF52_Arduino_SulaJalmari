@@ -18,8 +18,9 @@ There are two methods that you can use to install this BSP. We highly recommend 
  4. Add https://raw.githubusercontent.com/HenryQalmari/Adafruit_nRF52_Arduino_SulaJalmari/refs/heads/master/package_qalmari_index.json as an 'Additional Board Manager URL'
  5. Restart the Arduino IDE
  6. Open the Boards Manager from the Tools -> Board menu and install 'Qalmari Boards'
- 7. Once the it's installed, select 'Qalmari Boards/Qalmari SulaJalmari' from the Tools -> Board menu, which will update your system config to use the right compiler and settings for the nRF52.
- 8. What this tutorial: https://www.youtube.com/watch?v=ynAvySNCi-0&list=PLwWF-ICTWmB7-b9bsE3UcQzz-7ipI5tbR&index=3
+ 7. Connect the board via USB
+ 8. Once the it's installed, select 'Qalmari Boards/Qalmari SulaJalmari' from the Tools -> Board menu, which will update your system config to use the right compiler and settings for the nRF52.
+ 9. What this tutorial: https://www.youtube.com/watch?v=v7kQuvR6kZY
 
 ### Optional (Core Development): Adafruit nRF52 BSP via git
 

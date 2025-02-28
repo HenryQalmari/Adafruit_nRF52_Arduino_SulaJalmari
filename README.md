@@ -15,10 +15,10 @@ There are two methods that you can use to install this BSP. We highly recommend 
  1. [Download and install the Arduino IDE](https://www.arduino.cc/en/Main/Software) (At least v1.6.12)
  2. Start the Arduino IDE
  3. Go into Preferences
- 4. Add [THIS LINK](https://raw.githubusercontent.com/HenryQalmari/Adafruit_nRF52_Arduino_SulaJalmari/refs/heads/master/package_qalmari_index.json) as an 'Additional Board Manager URL'
+ 4. Add https://raw.githubusercontent.com/HenryQalmari/Adafruit_nRF52_Arduino_SulaJalmari/refs/heads/master/package_qalmari_index.json as an 'Additional Board Manager URL'
  5. Restart the Arduino IDE
- 6. Open the Boards Manager from the Tools -> Board menu and install 'Adafruit nRF52 by Adafruit'
- 7. Once the BSP is installed, select 'Adafruit Feather nRF52840 Express' from the Tools -> Board menu, which will update your system config to use the right compiler and settings for the nRF52.
+ 6. Open the Boards Manager from the Tools -> Board menu and install 'Qalmari Boards'
+ 7. Once the it's installed, select 'Qalmari Boards/Qalmari SulaJalmari' from the Tools -> Board menu, which will update your system config to use the right compiler and settings for the nRF52.
 
 ### Optional (Core Development): Adafruit nRF52 BSP via git
 

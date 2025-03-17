@@ -20,7 +20,8 @@ There are two methods that you can use to install this BSP. We highly recommend 
  6. Open the Boards Manager from the Tools -> Board menu and install 'Qalmari Boards'
  7. Connect the board via USB
  8. Once the it's installed, select 'Qalmari Boards/Qalmari SulaJalmari' from the Tools -> Board menu, which will update your system config to use the right compiler and settings for the nRF52.
- 9. What this tutorial: https://www.youtube.com/watch?v=v7kQuvR6kZY
+ 9. (optional) Watch this tutorial: https://www.youtube.com/watch?v=v7kQuvR6kZY
+ 10. Explore File -> Examples -> Qalmari examples. Note that the Qalmari Board has to be selected.
 
 ### Optional (Core Development): Adafruit nRF52 BSP via git
 

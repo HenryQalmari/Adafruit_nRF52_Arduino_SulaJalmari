@@ -1,43 +1,49 @@
 /*
-** LED_BUILTIN = D0 = LED 1
-** D0 = LED 1
-** D1 = LED 2
-** D2 = LED 3
-** D3 = LED 4
-** D4 = LED 5
-** D5 = LED 6
-** D6 = LED 7
-** D7 = LED 8
+** LED_BUILTIN = 0 = LED 1
+** 0 = LED 1
+** 1 = LED 2
+** 2 = LED 3
+** 3 = LED 4
+** 4 = LED 5
+** 5 = LED 6
+** 6 = LED 7
+** 7 = LED 8
 **
-** D8 = NeoPixel EYE LEDs
+** 8 = NeoPixel EYE LEDs
 **
-** D9 = BUTTON 1
-** D10 = BUTTON 2
+** 9 = BUTTON 1
+** 10 = BUTTON 2
 **
-** D11 = VIBRATION MOTOR
-** D12 = BUZZER
-** D13 = BATTERY VOLTAGE DIVIDER ENABLE
+** 11 = VIBRATION MOTOR
+** 12 = BUZZER
+** 13 = BATTERY VOLTAGE DIVIDER ENABLE
 **
-** A0 = D14 = BATTERY VOLTAGE DIVIDER
-** A7 = D21 = IMU INTERRUPT
+** A0 = 14 = BATTERY VOLTAGE DIVIDER
+** A7 = 21 = IMU INTERRUPT
 **
-** D22 = IMU SDA
-** D23 = IMU SCL
+** 22 = IMU SDA
+** 23 = IMU SCL
+**
+** This program makes an LED blink on and off continuously.
+**
+** - The LED turns ON for 1 second.
+** - Then, it turns OFF for 1 second.
+** - This repeats forever.
 */
 
 
-#define LED_PIN D0
+#define LED_PIN 0  // The pin where the LED is connected
 
-// the setup function runs once when you press reset or power the board
+// The setup function runs once when the board is powered on or reset.
 void setup() {
-  // initialize digital pin LED_PIN as an output.
-  pinMode(LED_PIN, OUTPUT);
+  pinMode(LED_PIN, OUTPUT);  // Set the LED pin as an output (so we can turn it on/off)
 }
 
-// the loop function runs over and over again forever
+// The loop function runs continuously after setup finishes.
 void loop() {
-  digitalWrite(LED_PIN, HIGH);      // turn the LED on (HIGH is the voltage level)
-  delay(1000);                      // wait for a second
-  digitalWrite(LED_PIN, LOW);       // turn the LED off by making the voltage LOW
-  delay(1000);                      // wait for a second
+  digitalWrite(LED_PIN, HIGH);  // Turn the LED ON (apply voltage)
+  delay(1000);                  // Wait for 1 second (1000 milliseconds)
+
+  digitalWrite(LED_PIN, LOW);   // Turn the LED OFF (remove voltage)
+  delay(1000);                  // Wait for 1 second
 }

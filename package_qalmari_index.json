@@ -40,6 +40,43 @@
               "version": "0.11.0-arduino2"
             }
           ]
+        },
+        {
+          "name": "Qalmari Boards",
+          "architecture": "nrf52",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/HenryQalmari/Adafruit_nRF52_Arduino_SulaJalmari/releases/download/1.0.1/qalmari_boards_1.0.1.tar.gz",
+          "archiveFileName": "qalmari_boards_1.0.1.tar.gz",
+          "checksum": "SHA-256:244c02a68946d7652d377e1c1d05d3985d62ad5e95fc3c972bc65307cc3c7700",
+          "size": "17221482",
+          "boards": [
+            {
+              "name": "SulaJalmari"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "qalmari",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "qalmari",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ]
         }
       ],
       "tools": [

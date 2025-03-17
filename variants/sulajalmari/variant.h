@@ -54,6 +54,7 @@ extern "C"
 #define PIN_NEOPIXEL_POWER   (34)
 #define PIN_NEOPIXEL         (8)
 #define NEOPIXEL_NUM         2
+#define LED_BLUE			 PIN_LED2
 
 #define LED_BUILTIN          PIN_LED1
 #define LED_CONN             PIN_LED2

@@ -48,8 +48,8 @@
           "category": "Contributed",
           "url": "https://github.com/HenryQalmari/Adafruit_nRF52_Arduino_SulaJalmari/releases/download/1.0.1/qalmari_boards_1.0.1.tar.gz",
           "archiveFileName": "qalmari_boards_1.0.1.tar.gz",
-          "checksum": "SHA-256:015ec276a1679beaab6f6d77641afb50f60e81350fbc5141cf21f87568413aca",
-          "size": "17278971",
+          "checksum": "SHA-256:9bd09a3b2bcff856f867c17e979bfe8b4b07928df7b7c4cbd5decbe064d5c628",
+          "size": "17279043",
           "boards": [
             {
               "name": "SulaJalmari"

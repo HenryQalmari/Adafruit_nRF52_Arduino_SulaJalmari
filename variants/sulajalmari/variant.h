@@ -16,14 +16,14 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-#ifndef _VARIANT_FEATHER52840_
-#define _VARIANT_FEATHER52840_
+#ifndef _VARIANT_SULAJALMARI_
+#define _VARIANT_SULAJALMARI_
 
 /** Master clock frequency */
 #define VARIANT_MCK       (64000000ul)
 
-#define USE_LFXO      // Board uses 32khz crystal for LF
-// define USE_LFRC    // Board uses RC for LF
+// #define USE_LFXO      // Board uses 32khz crystal for LF
+#define USE_LFRC    // Board uses RC for LF
 
 /*----------------------------------------------------------------------------
  *        Headers
